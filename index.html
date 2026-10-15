@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenvora - Welcome</title><style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #0b1020;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 8%;
+        background: #11182d;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #7c83ff;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+        color: #8585ff;
+    }
+
+    .hero p {
+        color: #c5c9d8;
+        font-size: 18px;
+        max-width: 550px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        background: #7777ff;
+        color: white;
+        padding: 14px 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background: #5b5be8;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        color: #aab0c5;
+        background: #11182d;
+    }
+
+    @media (max-width: 600px) {
+        .hero h1 {
+            font-size: 34px;
+        }
+
+        header {
+            padding: 18px 5%;
+        }
+
+        nav a {
+            margin-left: 8px;
+            font-size: 14px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <div class="logo">Zenvora.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Welcome to <span>Zenvora</span></h1>
+
+    <p>
+        Discover a new digital experience with Zenvora.
+        We are building something amazing for the future.
+    </p>
+
+    <a href="#about" class="btn">Explore More</a>
+</section>
+
+<section class="hero" id="about">
+    <h1>About <span>Zenvora</span></h1>
+
+    <p>
+        Zenvora is our new website project.
+        This is just the beginning of our journey.
+    </p>
+</section>
+
+<footer>
+    © 2026 Zenvora. All rights reserved.
+</footer>
+
+</body>
+</html>
